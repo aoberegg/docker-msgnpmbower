@@ -13,6 +13,6 @@ RUN npm install -g gulp
 RUN apt-get install -y nginx
 
 RUN npm install
-RUN bower install
+RUN bower --allow-root install
 
 CMD ["bash"]
