@@ -10,3 +10,4 @@ RUN apt-get install -y nginx
 
 npm install -g
 bower install -g
+
