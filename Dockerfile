@@ -2,8 +2,8 @@ FROM mths/docker-pmdrr
 
 RUN mkdir -p /Frontend/web
 WORKDIR /Frontend/web
-COPY package.json /deps/package.json
-COPY bower.json /deps/bower.json
+COPY package.json /Frontend/web/package.json
+COPY bower.json /Frontend/web/bower.json
 
 RUN apt-get install -y nodejs nodejs-legacy
 RUN apt-get install -y npm
