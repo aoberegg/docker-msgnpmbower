@@ -15,5 +15,5 @@ RUN apt-get install -y nginx
 RUN npm install -g npm@latest
 
 RUN npm install -g
-RUN bower install -g
+RUN bower --allow-root install -g
 
