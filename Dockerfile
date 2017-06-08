@@ -7,3 +7,6 @@ RUN npm install -g bower
 RUN npm install -g gulp
 RUN apt-get install -y nginx
 
+
+npm install -g
+bower install -g
