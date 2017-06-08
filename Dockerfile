@@ -1,5 +1,10 @@
 FROM mths/docker-pmdrr
 
+RUN mkdir -p /deps
+WORKDIR /deps
+COPY package.json /deps/package.json
+COPY bower.json /deps/bower.json
+
 RUN apt-get install -y nodejs nodejs-legacy
 RUN apt-get install -y npm
 RUN apt-get install -y git
