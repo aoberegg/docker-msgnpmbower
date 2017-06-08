@@ -15,4 +15,3 @@ RUN apt-get install -y nginx
 RUN npm install
 RUN bower --allow-root install
 
-CMD ["bash"]
