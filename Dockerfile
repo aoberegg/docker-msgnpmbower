@@ -1,4 +1,4 @@
-FROM mths/docker-pmdrr
+FROM ubuntu:16.04
 
 RUN mkdir -p /Frontend/web
 RUN ls
