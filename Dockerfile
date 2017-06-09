@@ -14,4 +14,3 @@ RUN npm install -g gulp
 
 RUN cd /Frontend/web && ls && bower install --allow-root && npm install && cd ~
 
-RUN cd /Frontend/web && ls
