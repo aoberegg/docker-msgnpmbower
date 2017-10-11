@@ -16,5 +16,5 @@ RUN apt-get install -y nginx
 RUN npm install -g bower
 RUN npm install -g gulp
 
-RUN cd /Frontend/web && ls && bower install --allow-root && npm install && cd ~
+RUN cd /Frontend/web && ls && npm install && bower install --allow-root && cd ~
 
